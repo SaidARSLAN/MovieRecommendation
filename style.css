@@ -1,0 +1,65 @@
+body,html {
+    background-image: url("1154.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+.contain {
+    margin-top: 20px;
+}
+.input-area {
+    width: 100%;
+    display: flex;
+}
+#textarea {
+    width: 100%;
+    height: 30px;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 20px;
+    margin-right: 15px;
+    color: white;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+} 
+h1 {
+    font-size: 50px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#send {
+    border: none;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.8s;
+}
+#send:hover {
+    background-color: white;
+    color: black;
+}
+.card {
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 10px solid white;
+    box-shadow: 30px 30px 20px 20px black;
+    display: none;
+}
+.movie-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
